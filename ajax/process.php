@@ -26,7 +26,7 @@ if ( isset($_POST['email']) && isset($_POST['name']) && isset($_POST['subject'])
 			
 			//   CHANGE THE BELOW VARIABLES TO YOUR NEEDS
 
-			$to = 'farukham@gmail.com';
+			$to = 'zackn9ne@gmail.com';
 
 			$subject = "Message Sent From Agency Theme: ".$_POST['subject'];
 
