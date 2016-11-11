@@ -586,7 +586,7 @@ ul.text-slide {
 .navbar-custom {
     background-color: #fff;
     width: 100%;
-    min-height: 80px;
+    min-height: 110px;
     position: relative;
     border-radius: 0;
     margin-bottom: 0;
@@ -2580,6 +2580,9 @@ ol.commentlist li:first-child {
     background-size: cover;
 }
 
+.site-logo a img {
+    width: 100px;
+}
 #portfolio-wrap, #section3, .about-wrap, .skills-wrap, .fun {
     display: none;
 }
@@ -2597,8 +2600,13 @@ ol.commentlist li:first-child {
     font-size: 7em;
 }
 
+button a {
+    text-decoration: none;
+}
+
 p.welcome img {
-    height: 90vh;
+    max-height: 60vh;
+    max-width: 100%;
 }
 
 div.page-mask {

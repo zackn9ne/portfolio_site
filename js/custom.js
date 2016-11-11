@@ -66,7 +66,7 @@ Drop Down Menu Fade Effect
 
     var navigationHeight = jQuery("#navigation").outerHeight();
 
-     jQuery('#down_glyph').click(function(){
+     jQuery('#down_glyph, #magness_btn').click(function(){
         jQuery('html, body').animate({
             scrollTop: jQuery( $.attr(this, 'href')).offset().top 
         }, 800, 'easeInQuad');
